@@ -36,7 +36,7 @@ Infrastructure
 </center>
 We were assigned 6 boxes with various services running on those boxes
 <center>
-    <img src=(https://i.gyazo.com/f724df4a98c1054ca95dd3e9865a6389.png)>
+    <img src="https://i.gyazo.com/f724df4a98c1054ca95dd3e9865a6389.png">
 </center>
 * Web Server (CentOS 7) -  Hosted a vulnerable web server. Ran SMTP
 * CNC (Windows Server 2016) - edr.energy.local domain controller. Hosted the HMI to interact with the simulated houses on the PLC box.
@@ -62,23 +62,23 @@ The day started off with me doing my normal morning routine then heading off to 
 I was assigned to watch the Public DB and AD/DNS box as those were the two boxes that I spent the most time hardening and doing vulnerability assessment. We quickly realized that they weren’t even attacking those boxes and after an hour and losing 2 red team blocks due to connectivity issues, I was assigned to do the assumed breach. The start of my assumed breaches looked something like this.
 
 <center>
-    <img src=(https://i.gyazo.com/493d1da81ec8ff6904bb28dfa8cc5e20.png)>
+    <img src="https://i.gyazo.com/493d1da81ec8ff6904bb28dfa8cc5e20.png">
 </center>
 
 After this I started to get the hang of it. My eyes were glued to Wazuh, Windows Event Logs, and /var/log/auth.log. My messages to the red teamer started to look a lot better, which boosted my confidence and overall made me perform better.
 
 <center>
-    <img src=(https://i.gyazo.com/ac444e80c341de2de7bb3faf49895aa3.png)>
+    <img src="https://i.gyazo.com/ac444e80c341de2de7bb3faf49895aa3.png">
 </center>
 
 <center>
-    <img src=(https://i.gyazo.com/24daa6e9459019e4348f7deca61cf04f.png)>
+    <img src="https://i.gyazo.com/24daa6e9459019e4348f7deca61cf04f.png">
 </center>
 
 There was also a whack-a-mole component to this competition where the red team would attack our secured machines and see what vulnerabilities were still there. We did pretty good in that as well getting most of the points for both whack-a-mole events.
 
 <center>
-    <img src=(https://i.gyazo.com/97380c55c1cbee175762e3920803034d.png)>
+    <img src="https://i.gyazo.com/97380c55c1cbee175762e3920803034d.png">
 </center>
 
 Our incident response was pretty good and by the end of the competition I think we had around 1300 red team points and the top team had somewhere around 1500. I only really got to work on like 3 anomalies during the whole comp because I was so bogged down with incident response but, doing incident response was really fun and satisfying.
