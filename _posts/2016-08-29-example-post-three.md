@@ -18,8 +18,9 @@ CyberForce isn’t your traditional cybersecurity competition like CCDC, CPTC, o
 * Orange Team 2000 - There were 2 components to the Orange Team score. The first part was a C-Suite panel brief, which basically is a 5 minute video discussing the business risk associated with a breach of a large number of smart meters. The video was to be submitted 2 weeks before the competition, before we got our infrastructure. The second part was security documentation which consisted of us writing about the vulnerabilities we found, an essay of the hardening of our machines, and a network diagram. This was to be submitted 1 week before the competition.
 * Anomaly Scoring 2000 - 8 hour long CTF.
 
-![Diff teams](https://i.gyazo.com/00a7bb3a0c22b6042cde8fb8d129a720.png)
-
+<center>
+    <img src="https://i.gyazo.com/00a7bb3a0c22b6042cde8fb8d129a720.png">
+<center>
 
 <center>
 Preparation
