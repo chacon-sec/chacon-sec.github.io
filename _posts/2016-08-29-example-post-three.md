@@ -3,13 +3,13 @@ title: CyberForce 2023
 category: Competitions
 ---
 <center>
-**Intro**
+    <strong>Intro</strong>
 </center>
 Cyberforce is a cybersecurity competition hosted by the Department of Energy designed to simulate a real world attack on American critical infrastructure. This year the competition hosted over 100 teams with over 95 teams competing. Overall it went really well, considering five out of the six people on the team were first time competitors, me included(I won’t spoil our placement). My cybersecurity skills before this competition consisted of me doing Bandit on OverTheWire and some TryHackMe rooms but the preparation and competing in this competition has taught me a lot.
 <!-- more -->
 
 <center>
-**Competition Overview**
+    <strong>Competition Overview</strong>
 </center>
 CyberForce isn’t your traditional cybersecurity competition like CCDC, CPTC, or even NCAE. There is preparatory work that has to be submitted prior to the competition day that will affect your teams overall score. To simplify what points would count for what let me break down the different ways we were scored during the competition
 * **Red Team 2500** - There were 2 components to red team scoring. The first part consisted of traditional external pentesting where they attacked the boxes we secured. The other part was something called “Assumed Breach” where the Red Team is already given access to out boxes and attack us with predetermined attack chains. Defenders have to find out what they did and report it to their Red Teamer.
@@ -23,7 +23,7 @@ CyberForce isn’t your traditional cybersecurity competition like CCDC, CPTC, o
 </center>
 
 <center>
-**Preparation**
+    <strong>Preparation</strong>
 </center>
 Preparation for the competition was pretty open ended. It mostly consisted of us setting up an environment that would be close to what we would see in the competition and then essentially purple teaming and testing our SIEM so that we would be ready for incident response during the competition. 
 
@@ -32,7 +32,7 @@ We ended up choosing Wazuh to be our SIEM of choice because it is very lightweig
 All of us also competed in NCL to get some experience in CTF challenges.
 
 <center>
-**Infrastructure**
+    <strong>Infrastructure</strong>
 </center>
 We were assigned 6 boxes with various services running on those boxes
 <center>
@@ -46,7 +46,7 @@ We were assigned 6 boxes with various services running on those boxes
 * **Public DB (OpenSUSE 15)** - Ran NFS and SNMP. Not an actual database, more of a file sharing server.
 
 <center>
-**27 Days**
+    <strong>27 Days</strong>
 </center>
 From the day at which we were assigned the C-Suite Panel video to when we were actually going to compete was 27 Days. The first week from October 15th to October 22nd was the time we had to do our C-Suite Panel video. It really wasn’t hard. It took 2 people (me and a team member) 3 days to get it done. 2 days to prepare and 1 day to film. The preparation was mostly us trying to figure out what a distributed energy resource was and what a smart meter was. The rest was easy, just talked about mitigation techniques the company can implement now and some long term mitigation techniques. The filming part took about 2 hours because zoom is funny but it came out pretty good as we got about 900/1000 points. 
 
@@ -55,7 +55,7 @@ From October 23rd to October 30th was the time we had to do our security documen
 From October 31st to November 3rd was the time we had to do more hardening and make a game plan for competition day. We ended up setting up some firewalls and found some more vulnerabilities on our machines. The game plan for the competition day was to assign 4 people to watch the 3 boxes that weren’t assumed breach and just do anomalies and then the 2 other people to do assumed break and anomalies but that went right out the window an hour into the competition.
 
 <center>
-**Competition Day**
+    <strong>Competition Day</strong>
 </center>
 The day started off with me doing my normal morning routine then heading off to breakfast. The nerves were definitely getting to me and the cold ball room did not help with that. The competition started at 10AM and would last till 6PM.
 
@@ -84,7 +84,7 @@ There was also a whack-a-mole component to this competition where the red team w
 Our incident response was pretty good and by the end of the competition I think we had around 1300 red team points and the top team had somewhere around 1500. I only really got to work on like 3 anomalies during the whole comp because I was so bogged down with incident response but, doing incident response was really fun and satisfying.
 
 <center>
-**Results**
+    <strong>Results</strong>
 </center>
 
 At the end of the day I was really proud of all of my teammates for their hard work and dedication to this competition. We ended up in 16th place out of 104 teams, which was a lot better than anyone expected(only 1 team member had competed in a RvB style cyber competition before this). If I could go back and do anything different for this competition, I would have more people assigned to incident response and learn how to do incident response better. It was decent enough to land us a good placement, but those extra points definitely could have moved us up a place or two. Oh I also need to grind ctf time and hack the box.
