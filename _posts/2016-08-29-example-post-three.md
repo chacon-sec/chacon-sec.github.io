@@ -3,27 +3,27 @@ title: CyberForce 2023
 category: Competitions
 ---
 <center>
-Intro
+**Intro**
 </center>
 Cyberforce is a cybersecurity competition hosted by the Department of Energy designed to simulate a real world attack on American critical infrastructure. This year the competition hosted over 100 teams with over 95 teams competing. Overall it went really well, considering five out of the six people on the team were first time competitors, me included(I won’t spoil our placement). My cybersecurity skills before this competition consisted of me doing Bandit on OverTheWire and some TryHackMe rooms but the preparation and competing in this competition has taught me a lot.
 <!-- more -->
 
 <center>
-Competition Overview
+**Competition Overview**
 </center>
 CyberForce isn’t your traditional cybersecurity competition like CCDC, CPTC, or even NCAE. There is preparatory work that has to be submitted prior to the competition day that will affect your teams overall score. To simplify what points would count for what let me break down the different ways we were scored during the competition
-* Red Team 2500 - There were 2 components to red team scoring. The first part consisted of traditional external pentesting where they attacked the boxes we secured. The other part was something called “Assumed Breach” where the Red Team is already given access to out boxes and attack us with predetermined attack chains. Defenders have to find out what they did and report it to their Red Teamer.
-* Blue Team 2000 - This component was essentially just service uptime and any additional energy you sold back to the power grid during the competition. Red Team really doesn’t mess with your services so it is pretty easy to get the full 2000.
-* Green Team 1500 - Green Team consists of a team of volunteers that runs checks on a website that you have to fix and configure to certain specifications. This again is pretty easy to get MOST of the points, as long as you configure the website to the right specifications, it is easy to get these points.
-* Orange Team 2000 - There were 2 components to the Orange Team score. The first part was a C-Suite panel brief, which basically is a 5 minute video discussing the business risk associated with a breach of a large number of smart meters. The video was to be submitted 2 weeks before the competition, before we got our infrastructure. The second part was security documentation which consisted of us writing about the vulnerabilities we found, an essay of the hardening of our machines, and a network diagram. This was to be submitted 1 week before the competition.
-* Anomaly Scoring 2000 - 8 hour long CTF.
+* **Red Team 2500** - There were 2 components to red team scoring. The first part consisted of traditional external pentesting where they attacked the boxes we secured. The other part was something called “Assumed Breach” where the Red Team is already given access to out boxes and attack us with predetermined attack chains. Defenders have to find out what they did and report it to their Red Teamer.
+* **Blue Team 2000** - This component was essentially just service uptime and any additional energy you sold back to the power grid during the competition. Red Team really doesn’t mess with your services so it is pretty easy to get the full 2000.
+* **Green Team 1500** - Green Team consists of a team of volunteers that runs checks on a website that you have to fix and configure to certain specifications. This again is pretty easy to get MOST of the points, as long as you configure the website to the right specifications, it is easy to get these points.
+* **Orange Team 2000** - There were 2 components to the Orange Team score. The first part was a C-Suite panel brief, which basically is a 5 minute video discussing the business risk associated with a breach of a large number of smart meters. The video was to be submitted 2 weeks before the competition, before we got our infrastructure. The second part was security documentation which consisted of us writing about the vulnerabilities we found, an essay of the hardening of our machines, and a network diagram. This was to be submitted 1 week before the competition.
+* **Anomaly Scoring 2000** - 8 hour long CTF.
 
 <center>
     <img src="https://i.gyazo.com/00a7bb3a0c22b6042cde8fb8d129a720.png">
 </center>
 
 <center>
-Preparation
+**Preparation**
 </center>
 Preparation for the competition was pretty open ended. It mostly consisted of us setting up an environment that would be close to what we would see in the competition and then essentially purple teaming and testing our SIEM so that we would be ready for incident response during the competition. 
 
@@ -32,21 +32,21 @@ We ended up choosing Wazuh to be our SIEM of choice because it is very lightweig
 All of us also competed in NCL to get some experience in CTF challenges.
 
 <center>
-Infrastructure
+**Infrastructure**
 </center>
 We were assigned 6 boxes with various services running on those boxes
 <center>
     <img src="https://i.gyazo.com/f724df4a98c1054ca95dd3e9865a6389.png">
 </center>
-* Web Server (CentOS 7) -  Hosted a vulnerable web server. Ran SMTP
-* CNC (Windows Server 2016) - edr.energy.local domain controller. Hosted the HMI to interact with the simulated houses on the PLC box.
-* PLC (Ubuntu 18.04) - ICS that communicated with the DER that would send information to the HMI. Didn’t run any scored services.
-* Task Box (Windows Server 2022) - Ran the company website, FTP, SMB, and RDP.
-* AD/DNS (Windows Server 2019) - energy.local domain controller. Ran VNC and SSH.
-* Public DB (OpenSUSE 15) - Ran NFS and SNMP. Not an actual database, more of a file sharing server.
+* **Web Server (CentOS 7)** -  Hosted a vulnerable web server. Ran SMTP
+* **CNC (Windows Server 2016)** - edr.energy.local domain controller. Hosted the HMI to interact with the simulated houses on the PLC box.
+* **PLC (Ubuntu 18.04)** - ICS that communicated with the DER that would send information to the HMI. Didn’t run any scored services.
+* **Task Box (Windows Server 2022)** - Ran the company website, FTP, SMB, and RDP.
+* **AD/DNS (Windows Server 2019)** - energy.local domain controller. Ran VNC and SSH.
+* **Public DB (OpenSUSE 15)** - Ran NFS and SNMP. Not an actual database, more of a file sharing server.
 
 <center>
-27 Days
+**27 Days**
 </center>
 From the day at which we were assigned the C-Suite Panel video to when we were actually going to compete was 27 Days. The first week from October 15th to October 22nd was the time we had to do our C-Suite Panel video. It really wasn’t hard. It took 2 people (me and a team member) 3 days to get it done. 2 days to prepare and 1 day to film. The preparation was mostly us trying to figure out what a distributed energy resource was and what a smart meter was. The rest was easy, just talked about mitigation techniques the company can implement now and some long term mitigation techniques. The filming part took about 2 hours because zoom is funny but it came out pretty good as we got about 900/1000 points. 
 
@@ -55,7 +55,7 @@ From October 23rd to October 30th was the time we had to do our security documen
 From October 31st to November 3rd was the time we had to do more hardening and make a game plan for competition day. We ended up setting up some firewalls and found some more vulnerabilities on our machines. The game plan for the competition day was to assign 4 people to watch the 3 boxes that weren’t assumed breach and just do anomalies and then the 2 other people to do assumed break and anomalies but that went right out the window an hour into the competition.
 
 <center>
-Competition Day
+**Competition Day**
 </center>
 The day started off with me doing my normal morning routine then heading off to breakfast. The nerves were definitely getting to me and the cold ball room did not help with that. The competition started at 10AM and would last till 6PM.
 
@@ -84,7 +84,7 @@ There was also a whack-a-mole component to this competition where the red team w
 Our incident response was pretty good and by the end of the competition I think we had around 1300 red team points and the top team had somewhere around 1500. I only really got to work on like 3 anomalies during the whole comp because I was so bogged down with incident response but, doing incident response was really fun and satisfying.
 
 <center>
-Results
+**Results**
 </center>
 
 At the end of the day I was really proud of all of my teammates for their hard work and dedication to this competition. We ended up in 16th place out of 104 teams, which was a lot better than anyone expected(only 1 team member had competed in a RvB style cyber competition before this). If I could go back and do anything different for this competition, I would have more people assigned to incident response and learn how to do incident response better. It was decent enough to land us a good placement, but those extra points definitely could have moved us up a place or two. Oh I also need to grind ctf time and hack the box.
