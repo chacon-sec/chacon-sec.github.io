@@ -93,6 +93,10 @@ There was also a whack-a-mole component to this competition where the red team w
 
 Our incident response was pretty good and by the end of the competition I think we had around 1300 red team points and the top team had somewhere around 1500. I only really got to work on like 3 anomalies during the whole comp because I was so bogged down with incident response but, doing incident response was really fun and satisfying.
 
+One area where my team definitely lacked during the competition was anomalies. The difficulty of anomalies in this competition were way above the levels of anyone on my team. One of my teammates is pretty cracked and placed well in NCL, but not even he could solve a lot of the challenges. Guess this just means we need to grind ctf time and read a lot more writeups!
+
+Our Green Team and Blue Team scoring were very good as well. Most teams got full points for Blue Team because they didn't attack any boxes that were hosting the services that were scored. Setting up the Green Team website was a pain for one of my members, but once he got it running we got most of the points for the website the rest of the competition which really boosted us up. 
+
 <center>
     <h1>
         <strong>Results</strong>
@@ -105,6 +109,14 @@ At the end of the day I was really proud of all of my teammates for their hard w
     <img src="https://media.licdn.com/dms/image/D5622AQFWE24EWC3IoQ/feedshare-shrink_800/0/1699428640616?e=1712188800&v=beta&t=RiDPsVbWGcQLSVRt-vtxTsR-XRwZDZDamVdrJ4LAlXM">
 </center>
 
+<center>
+    <h1>
+        <strong>My Thoughts</strong\>
+    </h1>
+</center>
+
+Honestly, I could not have asked for a better competition to compete in to jump start my cyber journey. There was not really an expectation for us to do to well during the competition because a lot of us were new to cyber, so there was a lot of weight lifted off my shoulders when it came to how we would place(we ended up doing good anyways though). The competition structure is also very enjoyable and well structured. From the vulnerability assessment to the actual day of, I definitely feel like I learned a lot. 
+
 At the end of the day the competition was really fun and I am really excited to see what the future holds for me in this field. I hope to return to this competition and hope to compete in a lot more cyber competitions(NCAE soon?) as they are really fun. 
 
-Oh and a little note, this was written on in febuary of 2024 so its really short because I honestly forgot a lot xc and lost a lot of documentation.
+Oh and a little note, this was written on in Febuary of 2024 so its really short because I honestly forgot a lot and lost a lot of documentation. XC
