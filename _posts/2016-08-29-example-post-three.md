@@ -3,7 +3,9 @@ title: CyberForce 2023
 category: Competitions
 ---
 <center>
-    <strong>Intro</strong>
+    <h1>
+        <strong>Intro</strong>
+    </h1>
 </center>
 Cyberforce is a cybersecurity competition hosted by the Department of Energy designed to simulate a real world attack on American critical infrastructure. This year the competition hosted over 100 teams with over 95 teams competing. Overall it went really well, considering five out of the six people on the team were first time competitors, me included(I won’t spoil our placement). My cybersecurity skills before this competition consisted of me doing Bandit on OverTheWire and some TryHackMe rooms but the preparation and competing in this competition has taught me a lot.
 <!-- more -->
@@ -26,9 +28,7 @@ CyberForce isn’t your traditional cybersecurity competition like CCDC, CPTC, o
     <strong>Preparation</strong>
 </center>
 Preparation for the competition was pretty open ended. It mostly consisted of us setting up an environment that would be close to what we would see in the competition and then essentially purple teaming and testing our SIEM so that we would be ready for incident response during the competition. 
-
 We ended up choosing Wazuh to be our SIEM of choice because it is very lightweight and seemed to get the job done(decently). Wazuh isn’t very good right out of the box so it took some time learning how to configure it but eventually one of my team members figured out how to configure it well enough for the competition. 
-
 All of us also competed in NCL to get some experience in CTF challenges.
 
 <center>
