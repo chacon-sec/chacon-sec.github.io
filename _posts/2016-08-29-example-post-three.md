@@ -101,6 +101,10 @@ Our incident response was pretty good and by the end of the competition I think 
 
 At the end of the day I was really proud of all of my teammates for their hard work and dedication to this competition. We ended up in 16th place out of 104 teams, which was a lot better than anyone expected(only 1 team member had competed in a RvB style cyber competition before this). If I could go back and do anything different for this competition, I would have more people assigned to incident response and learn how to do incident response better. It was decent enough to land us a good placement, but those extra points definitely could have moved us up a place or two. Oh I also need to grind ctf time and hack the box.
 
+<center>
+    <img src="https://media.licdn.com/dms/image/D5622AQFWE24EWC3IoQ/feedshare-shrink_800/0/1699428640616?e=1712188800&v=beta&t=RiDPsVbWGcQLSVRt-vtxTsR-XRwZDZDamVdrJ4LAlXM">
+</center>
+
 At the end of the day the competition was really fun and I am really excited to see what the future holds for me in this field. I hope to return to this competition and hope to compete in a lot more cyber competitions(NCAE soon?) as they are really fun. 
 
 Oh and a little note, this was written on in febuary of 2024 so its really short because I honestly forgot a lot xc and lost a lot of documentation.
