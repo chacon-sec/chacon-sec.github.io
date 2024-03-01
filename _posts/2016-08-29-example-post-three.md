@@ -111,7 +111,7 @@ At the end of the day I was really proud of all of my teammates for their hard w
 
 <center>
     <h1>
-        <strong>My Thoughts</strong\>
+        <strong>My Thoughts</strong>
     </h1>
 </center>
 
