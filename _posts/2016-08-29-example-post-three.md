@@ -118,5 +118,5 @@ At the end of the day I was really proud of all of my teammates for their hard w
 Honestly, I could not have asked for a better competition to compete in to jump start my cyber journey. There was not really an expectation for us to do to well during the competition because a lot of us were new to cyber, so there was a lot of weight lifted off my shoulders when it came to how we would place(we ended up doing good anyways though). The competition structure is also very enjoyable and well structured. From the vulnerability assessment to the actual day of, I definitely feel like I learned a lot. 
 
 At the end of the day the competition was really fun and I am really excited to see what the future holds for me in this field. I hope to return to this competition and hope to compete in a lot more cyber competitions(NCAE soon?) as they are really fun. 
-F
+
 Oh and a little note, this was written on in Febuary of 2024 so its really short because I honestly forgot a lot and lost a lot of documentation. XC
