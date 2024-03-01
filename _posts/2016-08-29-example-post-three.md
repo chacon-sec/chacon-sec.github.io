@@ -1,8 +1,6 @@
 ---
-<center>
 title: CyberForce 2023
 category: Competitions
-</center>
 ---
 <center>
 Intro
